@@ -1,0 +1,430 @@
+#page { 
+	margin: 0 auto;
+	width: 999px;
+	background: url("http://dl.dropbox.com/u/2291825/COM530_images/bg.png") repeat-y;
+	color: #444444;
+	font-size: 14px;
+    font-family: Georgia,"Nimbus Roman No9 L",serif;
+	line-height: 150%;
+} 
+
+ul.accessibility
+{ position: absolute; left:-20000px;}
+
+
+#header
+{ 
+    font-family: 'Eras Medium ITC','Arial',sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    height: 110px;
+    padding: 30px 30px 0px 10px;
+    text-align: left;
+	background: url("http://dl.dropbox.com/u/2291825/COM530_images/header.png") no-repeat bottom;
+}
+
+#header a {
+    color: #221111;
+    padding: 10px;
+    text-decoration: none;
+}
+#header a:hover {
+    color: #A52A2A;
+	border: none;
+}
+
+#description {
+    color: #666666;
+    font-family: Candara,'Trebuchet MS';
+    font-size: 20px;
+    padding: 3px 3px 3px 20px;
+}
+
+#sub_header
+{
+	color: #221111;
+	text-align: right; 
+	float: right;
+	padding-top: 35px;
+	font-style: italic;
+	font-size: 14px; 
+}
+
+#content {
+    margin-right: 255px;
+    padding: 35px 15px 30px 15px;
+}
+
+p#breadcrumbs
+{
+line-height: 200%;
+font-style: italic;
+border-bottom: dashed;
+border-width: thin;
+background-color: #F3F3F3;
+border-color: #CCCCCC;
+position: relative;
+bottom: 10px;
+}
+
+span.file_type {
+	font-size: 80%;
+	border-style: inset;
+	border-width: thin;
+	}
+
+span.dl {
+	float: right;
+	background-color: #CCCCCC;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#F3F3E1), to(#CCCCCC));
+	background: -moz-linear-gradient(top,  #F3F3E1,  #CCCCCC);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3F3E1', endColorstr='#CCCCCC');
+
+	-moz-box-shadow: 5px 5px 1px #CCCCE3;
+	-webkit-box-shadow: 10px 10px 5px #CCCCE3;
+	box-shadow: 10px 10px 5px #CCCCE3;
+	
+	}
+
+span.dl a{
+	margin: 5px;
+	border-style: none dotted;
+	border-width: thin;
+	border-color: #A52A2A;
+	}
+
+span.dl a:hover {
+	background-color: #A52A2A;
+	color: white;
+	}
+	
+.notation {
+	font-size: 80%;
+	}
+
+#footer {
+    background: url("http://dl.dropbox.com/u/2291825/COM530_images/footer.png") repeat-y center;
+    font-size: 12px;
+    height: 140px;
+    text-align: center;
+}
+
+#footer p{
+	padding: 20px;
+	margin: 0px auto;
+}
+
+#footer #badges li img {
+	height: 20px;
+	width: 55px;
+	}
+
+
+
+/*begin styling the navigation bar*/
+div#nav {
+	position: absolute;
+	top: 105px;
+	right: 140px;
+}
+
+div#nav li
+{
+float: right;
+border-style: none dotted;
+border-width: thin;
+padding: 0px 2px;
+margin: 0px 2px;
+font-size: 18px;
+color: #221111;
+}
+
+div#nav a
+{ 
+display: block;
+text-decoration: none;
+font-weight: normal; 
+}
+
+div#nav a:hover {
+background-color: #A52A2A;
+color: white;
+}
+
+#vertical_bar {
+	position: absolute;
+	right: 120px;
+	top: 165px;
+	}
+
+#vertical_bar li {
+	line-height: 200%;
+	display: block;
+	border-bottom: dotted;
+	border-width: thin;
+	border-color: #CCCCCC;
+	}
+
+#vertical_bar a {
+	display: block;
+	}
+
+#vertical_bar a:hover {
+	background-color: #A52A2A;
+	color: white;
+	}
+
+/*end styling the navigation bar*/
+
+
+
+
+/*styling the normal text and global elements*/
+
+p {
+	text-indent: 15px;
+	}
+
+strong
+{	font-style:italic; 
+	font-weight: bold;
+	font-size: 12px;}
+
+a {
+	text-decoration: none;
+	color: #A52A2A;
+}
+
+
+#content a:hover{
+	text-decoration: none;
+	border-bottom: dotted;
+	border-width: thin;
+}
+
+p.taller_lines {
+	line-height: 200%;
+}
+
+ul li 
+{ 
+list-style-type: none;
+}
+
+ul.has_bullet li {
+	list-style-type: square;
+	margin-left: 50px;
+	}
+
+h1 {
+	margin: 10px;
+	}
+
+h2
+{
+font-size: 18px;
+margin-top: 18px;
+margin-bottom: 10px;
+border-top: solid;
+border-width: thin;
+}
+
+h3
+{ text-transform: uppercase; 
+  margin-top: 16px;
+  font-size: 16px;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #CCCCCC;
+  }
+
+h4
+{
+font-size:14px;
+margin-top: 14px;
+}
+
+h2, h3, h4
+{
+font-weight: bold;
+color: #00008B; 
+}
+
+h2 a, h3 a, h4 a {
+	color: #00008B;
+	}
+
+
+/*end styling the normal text and global elements*/
+
+
+
+/* portfolio-specific CSS begins */
+
+
+.seemore {
+	font-style: italic;
+
+	}
+
+ul#portfolio_index li a {
+	font-weight: bold;
+	line-height: 150%;
+	}
+
+
+ul#portfolio_index li ul li {	
+	
+	border: none;
+	list-style-type: disc;
+	font-size: 12px;
+	width: 180px;
+	height: 90px;
+	float: left;
+	margin: 15px 50px 0px 15px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#F3F3E1), to(#CCCCCC));
+	background: -moz-linear-gradient(top,  #F3F3E1,  #CCCCCC);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3F3E1', endColorstr='#CCCCCC');
+
+	-moz-box-shadow: 10px 10px 5px #CCCCE3;
+	-webkit-box-shadow: 10px 10px 5px #CCCCE3;
+	box-shadow: 10px 10px 5px #CCCCE3;
+	
+	}
+
+.pf_description {
+	height: 120px;
+	position: relative;
+	left: 60px;
+	}
+
+.pf_entry a img { 
+	margin: 10px;
+	border: solid;
+	border-width: thick;
+	border-color: #859CDB; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 15px 15px 5px #CCCCE3;
+	-webkit-box-shadow: 10px 10px 5px #CCCCE3;
+	box-shadow: 10px 10px 5px #CCCCE3;
+	}
+	
+.pf_entry a:hover img {
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	}
+
+ul#portfolio_index li.hasjs p.seemore:hover
+{
+cursor: pointer; 
+background: url("http://dl.dropbox.com/u/2291825/COM530_images/expand.png") no-repeat;
+background-position: right center;
+background-color: #F3F3F3;
+}
+
+.pfdate {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12px; 
+}
+
+div#subnav {
+	position: absolute;
+	top: 140px;
+	right: 140px;
+	width: 960px;
+}
+
+div#subnav li
+{
+float: right;
+border-style: none dotted;
+border-width: thin;
+padding: 0px 2px;
+margin: 0px 2px;
+font-size: 12px;
+color: #221111;
+}
+
+div#subnav a
+{ 
+display: block;
+text-decoration: none;
+font-weight: normal; 
+}
+
+div#subnav a:hover {
+background-color: #A52A2A;
+color: white;
+}
+	
+#nav .evoked, #subnav .evoked {
+	background-color: #A52A2A;
+	color: #CCCCCC;
+	}
+
+#nav .evoked a, #subnav .evoked a {
+	color: white;
+	}
+
+
+/* portfolio-specific CSS ends */
+
+
+
+
+
+/* resume-related CSS begins */
+p#name
+{
+font-size: 20px; text-align: center; line-height: 200%;
+}
+
+p.contactinfo
+{
+font-size: 16px; text-align: center; line-height: 200%;
+}
+
+p.contactinfo span{
+	margin: 16px;
+	}
+
+#content div {
+	margin: 0px 10px 10px 10px;
+	}
+
+.hide {
+	display: none;
+	}
+
+h3.hasjs:hover
+{
+cursor: pointer; 
+line-height: 200%;
+background: url("http://dl.dropbox.com/u/2291825/COM530_images/expand.png") no-repeat;
+background-position: right center;
+background-color: #F3F3F3;
+}
+
+.resume ul li {
+	list-style-type: square;
+	}
+
+.resume ul li.no_bullet {
+	list-style-type: none;
+	}
+
+/* resume-related CSS ends */

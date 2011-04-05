@@ -1,0 +1,106 @@
+#nav, ul.accessibility, #vertical_bar
+{display:none;}
+
+#header, #sub_header, #content, #footer {
+	margin: 15px;
+	}
+
+#footer
+{text-align: right; margin-top: 10px;}
+
+h1 
+{font-size: 22px; font-weight: bold; }
+
+h2, h3, h4
+{font-weight: bold; margin-top: 10px;}
+
+h2
+{font-size: 20px;}
+
+h3 {
+	font-size: 18px; 
+	text-transform: uppercase; 
+	border-bottom: solid;
+	border-width: thin;
+	}
+
+h4
+{font-size: 16px;}
+
+#breadcrumbs {
+	font-size: 16px; 
+	text-align: left; 
+	margin: 10px; 
+	border-bottom: dashed;
+	border-width: thin;
+	}
+
+#sub_header, .pf_quote {
+	font-style: italic;
+	}
+
+span.file_type {
+	font-size: 60%;
+	border-style: inset;
+	border-width: thin;
+	}
+
+.pf_area {
+	font-weight: bold;
+	border-bottom: solid;
+	border-width: thin;
+	}
+
+a.pf_entry
+{font-size: 16px; font-weight: bold; margin-top: 10px;}
+
+strong
+{ font-style:italic; margin-top: 10px; }
+
+
+p {
+	padding: 10px;
+	}
+
+a {
+	text-decoration: none; 
+	color: black;}
+
+li {
+	list-style-type: square;
+	}
+
+ul li.no_bullet
+{
+list-style-type: none;
+}
+
+.has_bullet li{
+	list-style-type: square;
+	}
+
+img
+{ 
+border: outset;
+}
+
+ul#portfolio_index img
+{
+ margin-top: 20px;
+ width: 220px;
+ height: 135px;
+}	
+
+
+/* resume-specific CSS starts */
+p#name
+{
+font-size: 22px; text-align: center; line-height: 200%;
+}
+
+address
+{
+font-size: 19px; text-align: center; line-height: 200%;
+}
+
+/* resume-specific CSS ends */

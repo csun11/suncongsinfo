@@ -1,0 +1,9 @@
+/*specific for IE version 7 and lower*/
+
+#vertical_bar {
+	position: absolute;
+	top: 150px;
+	right: 110px;
+	}
+
+
