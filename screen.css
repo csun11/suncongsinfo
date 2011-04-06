@@ -84,7 +84,7 @@ span.dl {
 	background: -moz-linear-gradient(top,  #F3F3E1,  #CCCCCC);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3F3E1', endColorstr='#CCCCCC');
 
-	-moz-box-shadow: 5px 5px 1px #CCCCE3;
+	-moz-box-shadow: 10px 10px 5px #CCCCE3;
 	-webkit-box-shadow: 10px 10px 5px #CCCCE3;
 	box-shadow: 10px 10px 5px #CCCCE3;
 	
