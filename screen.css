@@ -341,6 +341,14 @@ background-color: #F3F3F3;
 	font-size: 12px; 
 }
 
+.pftools {
+	color: #00008B; 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12px; 
+	margin-left: 30px;
+}
+
 div#subnav {
 	position: absolute;
 	top: 140px;

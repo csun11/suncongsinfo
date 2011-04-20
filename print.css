@@ -1,4 +1,4 @@
-#nav, ul.accessibility, #vertical_bar
+#nav, ul.accessibility, #subnav, #vertical_bar
 {display:none;}
 
 #header, #sub_header, #content, #footer {
@@ -8,11 +8,16 @@
 #footer
 {text-align: right; margin-top: 10px;}
 
+#footer #badges li img {
+	height: 20px;
+	width: 55px;
+	}
+
 h1 
 {font-size: 22px; font-weight: bold; }
 
-h2, h3, h4
-{font-weight: bold; margin-top: 10px;}
+h2, h3
+{font-weight: bold; margin-top: 5px;}
 
 h2
 {font-size: 20px;}
@@ -39,6 +44,8 @@ h4
 	font-style: italic;
 	}
 
+
+	
 span.file_type {
 	font-size: 60%;
 	border-style: inset;
@@ -55,12 +62,7 @@ a.pf_entry
 {font-size: 16px; font-weight: bold; margin-top: 10px;}
 
 strong
-{ font-style:italic; margin-top: 10px; }
-
-
-p {
-	padding: 10px;
-	}
+{ font-style:italic; margin-top: 5px; font-size: 14px; font-weight: bold;}
 
 a {
 	text-decoration: none; 
@@ -102,5 +104,9 @@ address
 {
 font-size: 19px; text-align: center; line-height: 200%;
 }
+
+p.contactinfo span{
+	margin: 16px;
+	}
 
 /* resume-specific CSS ends */
